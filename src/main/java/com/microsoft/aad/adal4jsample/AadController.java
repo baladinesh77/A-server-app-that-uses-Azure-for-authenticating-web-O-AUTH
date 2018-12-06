@@ -60,6 +60,7 @@ public class AadController {
                 model.addAttribute("userInfo", result.getUserInfo());
             } catch (Exception e) {
                 model.addAttribute("error", e);
+                e.printStackTrace();
                 return "/error";
             }
         }

@@ -45,15 +45,7 @@ From your shell or command line:
 - `git clone https://github.com/Azure-Samples/active-directory-java-webapp-openidconnect.git`
 
 ### Step 3:  Register the sample with your Azure Active Directory tenant
-
-To register these projects, you can:
-
-- either follow the steps in the paragraphs below 
-- or use PowerShell scripts that:
-  - **automatically** create for you the Azure AD applications and related objects (passwords, permissions, dependencies)
-
-If you want to use this automation, read the instructions in [App Creation Scripts](./AppCreationScripts/AppCreationScripts.md). Please note that the configuration of your code (Step 4) still needs to be done manually. 
-
+ 
 #### First step: choose the Azure AD tenant where you want to create your applications
 
 As a first step you'll need to:

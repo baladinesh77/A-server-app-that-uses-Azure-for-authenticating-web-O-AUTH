@@ -10,7 +10,7 @@
 	</context-param>
 	<context-param>
 		<param-name>tenant</param-name>
-		<param-value>YOUR_TENANT_NAME</param-value>
+		<param-value>mahendraunlimitedgmail.onmicrosoft.com</param-value>
 	</context-param>
 
 	<filter>
@@ -18,11 +18,11 @@
 		<filter-class>com.microsoft.aad.adal4jsample.BasicFilter</filter-class>
 		<init-param>
 			<param-name>client_id</param-name>
-			<param-value>YOUR_CLIENT_ID</param-value>
+			<param-value>e70fbb05-8135-4c14-b83f-b3f153c8f7e0</param-value>
 		</init-param>
 		<init-param>
 			<param-name>secret_key</param-name>
-			<param-value>YOUR_CLIENT_SECRET</param-value>
+			<param-value>wAILjiUgQjkzqd5lbis3KwSdw5ba8bjSHLkke3AZFqc=</param-value>
 		</init-param>
 	</filter>
 	<filter-mapping>
